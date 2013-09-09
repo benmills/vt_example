@@ -7,12 +7,19 @@
 //
 
 #import "AppDelegate.h"
+#import <VenmoTouch/VenmoTouch.h>
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    [VTClient
+     startWithMerchantID:@"qh5bmbx4v6pzw93h"
+     customerEmail:@"ben@getbraintree.com"
+     braintreeClientSideEncryptionKey:@"MIIBCgKCAQEA1wdEJdya+wre6n7PTaRFy7eAbaiK6/CV0782D5ho6gwF7VBXPBK7mypzF8PUwGm1mvOUuMVdtnyagpY/Lz7eSbiudpBwAlLEZn21Ou7nOxcfPexkaG5P09AiVfnWnxVo0t+VkkbC7yPVj5K1emxJ4VOFCCwJ3xfWm2DQ36XZoGX0mXzubHscWRUjxkEKOshkee9x7U6IquJDoWqqYt0y1XsJoawHxK44TolWcg3sxDck4D6ToSkYUzm08mVqxmLl0sRDPztFbUC1oxaFCY6wpG/iISNKsitWZTsHxythRo0y4VnqzNTgUsUHWjGiK6UicpehlEgq72PqiFJnxf5B0QIDAQAB"
+     environment:VTEnvironmentSandbox];
+    
     return YES;
 }
 							

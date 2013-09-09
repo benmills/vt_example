@@ -1,0 +1,15 @@
+PODS:
+  - Braintree (2.1.2)
+
+DEPENDENCIES:
+  - Braintree (from `git@github.braintreeps.com:braintree/braintree-ios.git`, commit `ef3d1f7d17c2b2c4d9d7fc5fe2cabeca24ed8116`)
+
+EXTERNAL SOURCES:
+  Braintree:
+    :commit: ef3d1f7d17c2b2c4d9d7fc5fe2cabeca24ed8116
+    :git: git@github.braintreeps.com:braintree/braintree-ios.git
+
+SPEC CHECKSUMS:
+  Braintree: e65cee4227df4dfc6ec396c969a1caeac4a2b039
+
+COCOAPODS: 0.24.0

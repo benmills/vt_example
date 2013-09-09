@@ -7,9 +7,12 @@
 //
 
 #import "ViewController.h"
+#import <VenmoTouch/VenmoTouch.h>
+#import <Braintree/BTPaymentViewController.h>
 
-@interface ViewController ()
-
+@interface ViewController () <BTPaymentViewControllerDelegate>
+@property (nonatomic, strong) BTPaymentViewController *view;
+@property (nonatomic, strong) UINavigationController *nav;
 @end
 
 @implementation ViewController
@@ -26,4 +29,25 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)PayShit:(id)sender {
+    BTPaymentViewController *newView = [BTPaymentViewController paymentViewControllerWithVenmoTouchEnabled:YES];
+    self.view.delegate = self;
+    self.nav = [[UINavigationController alloc] initWithRootViewController:self.view];
+    
+    [self presentViewController:self.nav animated:NO completion:nil];
+}
+
+#pragma mark VT shit
+
+- (void)paymentViewController:(BTPaymentViewController *)paymentViewController didSubmitCardWithInfo:(NSDictionary *)cardInfo andCardInfoEncrypted:(NSDictionary *)cardInfoEncrypted {
+    [self.view prepareForDismissal];
+    [self dismissViewControllerAnimated:NO completion:nil];
+    
+    NSLog(@"%@", cardInfo);
+}
+
+- (void)paymentViewController:(BTPaymentViewController *)paymentViewController didAuthorizeCardWithPaymentMethodCode:(NSString *)paymentMethodCode {
+    
+    
+}
 @end
