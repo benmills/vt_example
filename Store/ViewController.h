@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
-- (IBAction)PayShit:(id)sender;
+- (IBAction)tappedPayShit:(id)sender;
 @end

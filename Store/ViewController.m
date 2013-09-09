@@ -11,8 +11,7 @@
 #import <Braintree/BTPaymentViewController.h>
 
 @interface ViewController () <BTPaymentViewControllerDelegate>
-@property (nonatomic, strong) BTPaymentViewController *view;
-@property (nonatomic, strong) UINavigationController *nav;
+@property (nonatomic, strong) BTPaymentViewController *btpvc;
 @end
 
 @implementation ViewController
@@ -23,31 +22,30 @@
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (IBAction)tappedPayShit:(id)sender {
+    NSLog(@"YOu pushed da button");
+    self.btpvc = [BTPaymentViewController paymentViewControllerWithVenmoTouchEnabled:YES];
+    [self.btpvc setDelegate:self];
+
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:self.btpvc];
+
+    self.btpvc.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemCancel target:self action:@selector(dismissItNow)];
+    NSLog(@"%@, %@", self.btpvc, nav);
+
+    [self presentViewController:nav animated:YES completion:nil];
 }
 
-- (IBAction)PayShit:(id)sender {
-    BTPaymentViewController *newView = [BTPaymentViewController paymentViewControllerWithVenmoTouchEnabled:YES];
-    self.view.delegate = self;
-    self.nav = [[UINavigationController alloc] initWithRootViewController:self.view];
-    
-    [self presentViewController:self.nav animated:NO completion:nil];
+- (void)dismissItNow {
+    [self dismissViewControllerAnimated:YES completion:nil];
 }
 
 #pragma mark VT shit
 
 - (void)paymentViewController:(BTPaymentViewController *)paymentViewController didSubmitCardWithInfo:(NSDictionary *)cardInfo andCardInfoEncrypted:(NSDictionary *)cardInfoEncrypted {
-    [self.view prepareForDismissal];
-    [self dismissViewControllerAnimated:NO completion:nil];
-    
-    NSLog(@"%@", cardInfo);
+    NSLog(@"Got card info: %@", cardInfo);
+
+    [self.btpvc prepareForDismissal];
+    [self dismissViewControllerAnimated:YES completion:nil];
 }
 
-- (void)paymentViewController:(BTPaymentViewController *)paymentViewController didAuthorizeCardWithPaymentMethodCode:(NSString *)paymentMethodCode {
-    
-    
-}
 @end
