@@ -10,6 +10,8 @@
 #import <VenmoTouch/VenmoTouch.h>
 #import <Braintree/BTPaymentViewController.h>
 
+#import "ManualFormViewController.h"
+
 @interface ViewController () <BTPaymentViewControllerDelegate>
 @property (nonatomic, strong) BTPaymentViewController *btpvc;
 @end
@@ -19,8 +21,9 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
-}
+    [[VTClient sharedVTClient] refresh];
+
+ }
 
 - (IBAction)tappedPayShit:(id)sender {
     NSLog(@"YOu pushed da button");
@@ -34,6 +37,12 @@
 
     [self presentViewController:nav animated:YES completion:nil];
 }
+- (IBAction)refreshPleaseTapped:(id)sender {
+    [[VTClient sharedVTClient] refresh];
+}
+- (IBAction)tappedManualForm:(id)sender {
+    [self presentViewController:[[ManualFormViewController alloc] init] animated:YES completion:nil];
+}
 
 - (void)dismissItNow {
     [self dismissViewControllerAnimated:YES completion:nil];
@@ -43,9 +52,14 @@
 
 - (void)paymentViewController:(BTPaymentViewController *)paymentViewController didSubmitCardWithInfo:(NSDictionary *)cardInfo andCardInfoEncrypted:(NSDictionary *)cardInfoEncrypted {
     NSLog(@"Got card info: %@", cardInfo);
+    NSLog(@"Dismissing BTPVC and refreshing VTClient!");
+
+    #warning To finish implementing VT, you need to submit the card to the merchant server. Only call the next few lines on a callback when the network call to fulfill the order with the merchant server is successful.
 
     [self.btpvc prepareForDismissal];
     [self dismissViewControllerAnimated:YES completion:nil];
+
+    [[VTClient sharedVTClient] refresh];
 }
 
 @end

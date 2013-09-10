@@ -1,1999 +1,613 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>0071062AFE7041B590E44A95</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9E5B004D272A4051B1B23C9D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>007B54DFFA064E65B0C9DDCF</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>QuartzCore.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/QuartzCore.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>01C6C4504B1C40DAA51506A7</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>BTPaymentSectionHeaderView.h</string>
-			<key>path</key>
-			<string>braintree/BTPayment/BTPaymentSectionHeaderView.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>07DB22DE53EF442BBC76E979</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>2C45F5F15F4B426BB25A9CC0</string>
-				<string>9E5B004D272A4051B1B23C9D</string>
-				<string>A342FE4C9B0B4A9A8D0D9055</string>
-				<string>D7097CBE8B3644468F206847</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Support Files</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>084D480276E64B598FD435EF</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>LastUpgradeCheck</key>
-				<string>0450</string>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>79E90297DBB84D01A2C98A00</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-			</array>
-			<key>mainGroup</key>
-			<string>93E5F794EED7402C9C9C187E</string>
-			<key>productRefGroup</key>
-			<string>F8E01C7FDAD84F0CB60F160D</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>9BE1DAC3444F41388833C154</string>
-				<string>51351F392B434E94B7BA49EE</string>
-			</array>
-		</dict>
-		<key>0960C2B37372481B94493E85</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A49656E4F7284ED4B48B0EEF</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>0CDBCE5FDD0643F9A55A5BFA</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>BTPaymentCardType.m</string>
-			<key>path</key>
-			<string>braintree/BTPayment/BTPaymentCardType.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0CE24254048B4EC890C87F94</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>9DBD8DBBBD1040BEA66F07A5</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Targets Support Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0DD903F8CE68458F9AC2370A</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>83FADCCE89084415965B37C9</string>
-				<string>176270CA36DF423D80B4471D</string>
-				<string>F4AD6CBC9E0B48C482517288</string>
-				<string>F6E10795DDED4BA1B12157B6</string>
-				<string>B8E25F4093DE46778F94FD19</string>
-				<string>EDAE4D6FCB04419FB8FAE361</string>
-				<string>C97E6A2ED6A64E65A9A32E43</string>
-				<string>969C3E59994F475A87EB2070</string>
-				<string>95D1B53F35594E8CA9544178</string>
-				<string>6C42EF7D8B084B4F99E619E2</string>
-				<string>0CDBCE5FDD0643F9A55A5BFA</string>
-				<string>CD7E7FD87139477F97829550</string>
-				<string>A49656E4F7284ED4B48B0EEF</string>
-				<string>68D10966CCFA42E4AAD0157A</string>
-				<string>6A323E85232B4F1D8E42F856</string>
-				<string>DC4C119C6EAC4872AAEA97DD</string>
-				<string>A498743AD2404F709DF34B30</string>
-				<string>01C6C4504B1C40DAA51506A7</string>
-				<string>A9C07CC7F90A49838FAD7C23</string>
-				<string>F4EEC6CA80FD448F87C2E0CE</string>
-				<string>266DD49430AA4E05A1F5CF52</string>
-				<string>5AB2FC087C944AD187E48108</string>
-				<string>A68F0FE2AB9B46559D3D2E3A</string>
-				<string>1A92B0C756A44BC68EC59655</string>
-				<string>9A1B5589481A436590C7EEAC</string>
-				<string>35EF1D272B694265B5BA3057</string>
-				<string>D95772A0B7804CB39587EEAE</string>
-				<string>156985B46A46494BAC2EE4CF</string>
-				<string>469562F5FF0B4E58B5D6C10E</string>
-				<string>D23088C2869142FBB1A34525</string>
-				<string>5F9F17E490EA45F3AF351A2B</string>
-				<string>7BAB6D543D49449BABD705E8</string>
-				<string>C752B7D53A2A4DA9A9647789</string>
-				<string>1A93C5BDE7B2470BA77F5831</string>
-				<string>B3848DF5B0ED4F9CAD330526</string>
-				<string>4C6FBF39EB7341C79D4EE956</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Source Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>12A6F5D0AB164376B6130616</key>
-		<dict>
-			<key>fileRef</key>
-			<string>C97E6A2ED6A64E65A9A32E43</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>136A0B090CD9439186360895</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>F7F43A47F0FC46F79B98DD4C</string>
-				<string>49FD1EA81AAC4DD3AAFF36DB</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>156985B46A46494BAC2EE4CF</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>NSData+Base64.h</string>
-			<key>path</key>
-			<string>braintree/BTEncryption/NSData+Base64.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>176270CA36DF423D80B4471D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>BTAES.m</string>
-			<key>path</key>
-			<string>braintree/BTEncryption/BTAES.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>18602712496444EB92A64A2B</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>9AF5360453CE4706A7DF1590</string>
-				<string>591F41426F1649FA83FDCE89</string>
-				<string>0DD903F8CE68458F9AC2370A</string>
-				<string>07DB22DE53EF442BBC76E979</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Braintree</string>
-			<key>path</key>
-			<string>Braintree</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1A92B0C756A44BC68EC59655</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>BTRandom.h</string>
-			<key>path</key>
-			<string>braintree/BTEncryption/BTRandom.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1A93C5BDE7B2470BA77F5831</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>VTPaymentMethodCode.h</string>
-			<key>path</key>
-			<string>venmo-touch/VenmoTouch.framework/Headers/VTPaymentMethodCode.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1B67BF469EA2459BA003E733</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7BAB6D543D49449BABD705E8</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>1BEBBCA9861A450F94DAD0E7</key>
-		<dict>
-			<key>fileRef</key>
-			<string>5A5E6E623DE0478A80DA89D4</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>1E798682C9C04BD1A9D1530E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>83FADCCE89084415965B37C9</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2309C73993DD4DF99465D424</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>VenmoTouch.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/VenmoTouch.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>231BFE7CA1C142FF90659063</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F6E10795DDED4BA1B12157B6</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2407ADEE04914DEDB154A31E</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>2C45F5F15F4B426BB25A9CC0</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>ARCHS</key>
-				<string>$(ARCHS_STANDARD_32_BIT)</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Pods-Braintree-prefix.pch</string>
-				<key>GCC_VERSION</key>
-				<string>com.apple.compilers.llvm.clang.1_0</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>5.0</string>
-				<key>OTHER_CFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_CPLUSPLUSFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>261980EBFECA453895716A6F</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>266DD49430AA4E05A1F5CF52</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>BTPaymentViewController.m</string>
-			<key>path</key>
-			<string>braintree/BTPayment/BTPaymentViewController.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2C45F5F15F4B426BB25A9CC0</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-Braintree-Private.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2CAB5B49C0A845B09F2723D4</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>UIKit.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/UIKit.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>2E8827CEC90F42F3B2458147</key>
-		<dict>
-			<key>fileRef</key>
-			<string>469562F5FF0B4E58B5D6C10E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>2F5477063D024E7C89882F6C</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>EB118B2D96AB4578848E6D97</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>ARCHS</key>
-				<string>$(ARCHS_STANDARD_32_BIT)</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_VERSION</key>
-				<string>com.apple.compilers.llvm.clang.1_0</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>5.0</string>
-				<key>OTHER_CFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_CPLUSPLUSFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>3200DE58FE3946A78CAB7FD2</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>5.0</string>
-				<key>STRIP_INSTALLED_PRODUCT</key>
-				<string>NO</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>34E285EFDA0340168C4144D0</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>EDAFC982B02745CBAB3B945B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>35EF1D272B694265B5BA3057</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>BTSecKeyWrapper.h</string>
-			<key>path</key>
-			<string>braintree/BTEncryption/BTSecKeyWrapper.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>469562F5FF0B4E58B5D6C10E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>NSData+Base64.m</string>
-			<key>path</key>
-			<string>braintree/BTEncryption/NSData+Base64.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4968FD3348BF4534872207A3</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>5.0</string>
-				<key>STRIP_INSTALLED_PRODUCT</key>
-				<string>NO</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>49FD1EA81AAC4DD3AAFF36DB</key>
-		<dict>
-			<key>fileRef</key>
-			<string>BFF7DE9C63F34EBAB051A21B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>4C6FBF39EB7341C79D4EE956</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>VenmoTouchSettings.h</string>
-			<key>path</key>
-			<string>venmo-touch/VenmoTouch.framework/Headers/VenmoTouchSettings.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4CFACF768D0347D8AD7B178F</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>CoreGraphics.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/CoreGraphics.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>4DE0A8A29E50434DB1B7E4EA</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>D12318110F874C1DB92E6BB7</string>
-				<string>94FD57EF3896403B94975987</string>
-				<string>A3C99A399B024B0F92272EC0</string>
-				<string>5B6A9D831D324B40AB94D11F</string>
-				<string>B233D969F1124C749FCB0A53</string>
-				<string>1BEBBCA9861A450F94DAD0E7</string>
-				<string>6A5B3F04DA544CDBA59D1F9D</string>
-				<string>F3E2086AA68645CA8B113D5B</string>
-				<string>4E58192D5E48454CA476EDD7</string>
-				<string>E3127388B1E24FAA9CFCD712</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>4E58192D5E48454CA476EDD7</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E0B784EB8B494D8EA1DC65A0</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>4FA209B944234CCB82C671D2</key>
-		<dict>
-			<key>fileRef</key>
-			<string>35EF1D272B694265B5BA3057</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>5087D95553734A6C9073EA7F</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D23088C2869142FBB1A34525</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>51351F392B434E94B7BA49EE</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>550142D54A4F44A6B36DFECC</string>
-			<key>buildPhases</key>
-			<array>
-				<string>34E285EFDA0340168C4144D0</string>
-				<string>136A0B090CD9439186360895</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>6B73BD4EEDBA4952866C485F</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>productName</key>
-			<string>Pods</string>
-			<key>productReference</key>
-			<string>261980EBFECA453895716A6F</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>51B601E29BF3494B9EEB2E96</key>
-		<dict>
-			<key>fileRef</key>
-			<string>B8E25F4093DE46778F94FD19</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>521F40BEDB954E70A80852BB</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D95772A0B7804CB39587EEAE</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>550142D54A4F44A6B36DFECC</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>2F5477063D024E7C89882F6C</string>
-				<string>65C2150FC1F844E494393E5A</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>5728CA76935841EC816B46F3</key>
-		<dict>
-			<key>fileRef</key>
-			<string>EDAE4D6FCB04419FB8FAE361</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>591F41426F1649FA83FDCE89</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>E93FCBFBB8394CCB8431F684</string>
-				<string>8D0C7966419C4CBB934FEA51</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Resources</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5A2FAC3766D2466494818408</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A498743AD2404F709DF34B30</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>5A5E6E623DE0478A80DA89D4</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>Security.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/Security.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>5AB2FC087C944AD187E48108</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>BTRSA.h</string>
-			<key>path</key>
-			<string>braintree/BTEncryption/BTRSA.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5B6A9D831D324B40AB94D11F</key>
-		<dict>
-			<key>fileRef</key>
-			<string>007B54DFFA064E65B0C9DDCF</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>5C05314A4A6146BDB1A38B8D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A9C07CC7F90A49838FAD7C23</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>5C42592C52AE43BA8DABF3EA</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>9674CE5E18544401B0C1F843</string>
-				<string>CA29E58ECD7C4334982361F6</string>
-				<string>5087D95553734A6C9073EA7F</string>
-				<string>94F841AE04914E78B48311CC</string>
-				<string>1B67BF469EA2459BA003E733</string>
-				<string>F8B93DDD934541A4B291B290</string>
-				<string>FDEA47128BE84361B44A0198</string>
-				<string>1E798682C9C04BD1A9D1530E</string>
-				<string>231BFE7CA1C142FF90659063</string>
-				<string>5728CA76935841EC816B46F3</string>
-				<string>E36942C6DCA14987A92EF515</string>
-				<string>C6DFB8CA1DF84C29AF2071B0</string>
-				<string>4FA209B944234CCB82C671D2</string>
-				<string>EE613589FA7C4B309EE0D2FB</string>
-				<string>D5A3A41F6E3042B9B27C3995</string>
-				<string>7752AA8AE4294EF39ED51E80</string>
-				<string>93134F11BA14481192566796</string>
-				<string>77D3B2B11D3A4755AABF222F</string>
-				<string>95D534D5A82A41B7B3F98FA2</string>
-				<string>D8A8AAF4273744EEAF032E46</string>
-				<string>BF0695B134D04089B792B5CA</string>
-				<string>8422023F749947B78B07C633</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>5F76BA4354CD431DB6376E5D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>name</key>
-			<string>Podfile</string>
-			<key>path</key>
-			<string>../Podfile</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-			<key>xcLanguageSpecificationIdentifier</key>
-			<string>xcode.lang.ruby</string>
-		</dict>
-		<key>5F9F17E490EA45F3AF351A2B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>VTCheckboxView.h</string>
-			<key>path</key>
-			<string>venmo-touch/VenmoTouch.framework/Headers/VTCheckboxView.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>64751D6FFFDF4A6C92BA466E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>path</key>
-			<string>Pods-acknowledgements.markdown</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>65C2150FC1F844E494393E5A</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>EB118B2D96AB4578848E6D97</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>ARCHS</key>
-				<string>$(ARCHS_STANDARD_32_BIT)</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_VERSION</key>
-				<string>com.apple.compilers.llvm.clang.1_0</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>5.0</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>66EA111AD4E94B34BB9761F7</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-environment.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>68D10966CCFA42E4AAD0157A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>BTPaymentFormTextField.h</string>
-			<key>path</key>
-			<string>braintree/BTPayment/BTPaymentFormTextField.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>698695A97E934ABE98BDB09D</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>CoreTelephony.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/CoreTelephony.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>6A323E85232B4F1D8E42F856</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>BTPaymentFormTextField.m</string>
-			<key>path</key>
-			<string>braintree/BTPayment/BTPaymentFormTextField.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6A5B3F04DA544CDBA59D1F9D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2309C73993DD4DF99465D424</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>6B73BD4EEDBA4952866C485F</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>target</key>
-			<string>9BE1DAC3444F41388833C154</string>
-			<key>targetProxy</key>
-			<string>EED7B0EF744F47AEA8B8997B</string>
-		</dict>
-		<key>6C42EF7D8B084B4F99E619E2</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>BTPaymentCardType.h</string>
-			<key>path</key>
-			<string>braintree/BTPayment/BTPaymentCardType.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6C67F80C4506489BB04D3DA4</key>
-		<dict>
-			<key>fileRef</key>
-			<string>0CDBCE5FDD0643F9A55A5BFA</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>7752AA8AE4294EF39ED51E80</key>
-		<dict>
-			<key>fileRef</key>
-			<string>969C3E59994F475A87EB2070</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>77D3B2B11D3A4755AABF222F</key>
-		<dict>
-			<key>fileRef</key>
-			<string>CD7E7FD87139477F97829550</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>796E959DDDF043BDBEF53053</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>Foundation.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/Foundation.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>79E90297DBB84D01A2C98A00</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>3200DE58FE3946A78CAB7FD2</string>
-				<string>4968FD3348BF4534872207A3</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>7BAB6D543D49449BABD705E8</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>VTClient.h</string>
-			<key>path</key>
-			<string>venmo-touch/VenmoTouch.framework/Headers/VTClient.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>83FADCCE89084415965B37C9</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>BTAES.h</string>
-			<key>path</key>
-			<string>braintree/BTEncryption/BTAES.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8422023F749947B78B07C633</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F4EEC6CA80FD448F87C2E0CE</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>85FE2665CD7E417EAF6ACA89</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Pods-acknowledgements.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8D0C7966419C4CBB934FEA51</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.plug-in</string>
-			<key>name</key>
-			<string>VenmoTouchResources.bundle</string>
-			<key>path</key>
-			<string>venmo-touch/VenmoTouchResources.bundle</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>93134F11BA14481192566796</key>
-		<dict>
-			<key>fileRef</key>
-			<string>6C42EF7D8B084B4F99E619E2</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>93E5F794EED7402C9C9C187E</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>A1AF17F8070D4E31A69865AA</string>
-				<string>C8BBAC71E79D4AF295C95C31</string>
-				<string>F8E01C7FDAD84F0CB60F160D</string>
-				<string>0CE24254048B4EC890C87F94</string>
-				<string>5F76BA4354CD431DB6376E5D</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>94F841AE04914E78B48311CC</key>
-		<dict>
-			<key>fileRef</key>
-			<string>5F9F17E490EA45F3AF351A2B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>94FD57EF3896403B94975987</key>
-		<dict>
-			<key>fileRef</key>
-			<string>796E959DDDF043BDBEF53053</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>95D1B53F35594E8CA9544178</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>BTPaymentActivityOverlayView.m</string>
-			<key>path</key>
-			<string>braintree/BTPayment/BTPaymentActivityOverlayView.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>95D534D5A82A41B7B3F98FA2</key>
-		<dict>
-			<key>fileRef</key>
-			<string>68D10966CCFA42E4AAD0157A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9674CE5E18544401B0C1F843</key>
-		<dict>
-			<key>fileRef</key>
-			<string>B3848DF5B0ED4F9CAD330526</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>969C3E59994F475A87EB2070</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>BTPaymentActivityOverlayView.h</string>
-			<key>path</key>
-			<string>braintree/BTPayment/BTPaymentActivityOverlayView.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>981D4EED7C74429AA3AD00D8</key>
-		<dict>
-			<key>fileRef</key>
-			<string>176270CA36DF423D80B4471D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>99714180F780478998543223</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>2C45F5F15F4B426BB25A9CC0</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>ARCHS</key>
-				<string>$(ARCHS_STANDARD_32_BIT)</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Pods-Braintree-prefix.pch</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_VERSION</key>
-				<string>com.apple.compilers.llvm.clang.1_0</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>5.0</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>9A1B5589481A436590C7EEAC</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>BTRandom.m</string>
-			<key>path</key>
-			<string>braintree/BTEncryption/BTRandom.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9AD082BC75414BB99BCFD731</key>
-		<dict>
-			<key>fileRef</key>
-			<string>6A323E85232B4F1D8E42F856</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>9AF5360453CE4706A7DF1590</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>BFF7DE9C63F34EBAB051A21B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9BE1DAC3444F41388833C154</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>A2888449D49D4980ACBFD26A</string>
-			<key>buildPhases</key>
-			<array>
-				<string>A7D5296656EB43AA8C8FC898</string>
-				<string>4DE0A8A29E50434DB1B7E4EA</string>
-				<string>5C42592C52AE43BA8DABF3EA</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-Braintree</string>
-			<key>productName</key>
-			<string>Pods-Braintree</string>
-			<key>productReference</key>
-			<string>BFF7DE9C63F34EBAB051A21B</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>9DBD8DBBBD1040BEA66F07A5</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>64751D6FFFDF4A6C92BA466E</string>
-				<string>85FE2665CD7E417EAF6ACA89</string>
-				<string>E856698CC26C44CBB56B13E2</string>
-				<string>66EA111AD4E94B34BB9761F7</string>
-				<string>F31D6C4961A046F9B0576204</string>
-				<string>EB118B2D96AB4578848E6D97</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9E38BC3E587C406BAFB64A7A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>266DD49430AA4E05A1F5CF52</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>9E5B004D272A4051B1B23C9D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-Braintree-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A1AF17F8070D4E31A69865AA</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>E0B784EB8B494D8EA1DC65A0</string>
-				<string>4CFACF768D0347D8AD7B178F</string>
-				<string>698695A97E934ABE98BDB09D</string>
-				<string>B87A8AC4B4D04E3A96C88245</string>
-				<string>796E959DDDF043BDBEF53053</string>
-				<string>007B54DFFA064E65B0C9DDCF</string>
-				<string>5A5E6E623DE0478A80DA89D4</string>
-				<string>2CAB5B49C0A845B09F2723D4</string>
-				<string>2309C73993DD4DF99465D424</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A2888449D49D4980ACBFD26A</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>2407ADEE04914DEDB154A31E</string>
-				<string>99714180F780478998543223</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>A342FE4C9B0B4A9A8D0D9055</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-Braintree-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A3C99A399B024B0F92272EC0</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2CAB5B49C0A845B09F2723D4</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>A49656E4F7284ED4B48B0EEF</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>BTPaymentCardUtils.m</string>
-			<key>path</key>
-			<string>braintree/BTPayment/BTPaymentCardUtils.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A498743AD2404F709DF34B30</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>BTPaymentFormView.m</string>
-			<key>path</key>
-			<string>braintree/BTPayment/BTPaymentFormView.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A68F0FE2AB9B46559D3D2E3A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>BTRSA.m</string>
-			<key>path</key>
-			<string>braintree/BTEncryption/BTRSA.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A7D5296656EB43AA8C8FC898</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>981D4EED7C74429AA3AD00D8</string>
-				<string>51B601E29BF3494B9EEB2E96</string>
-				<string>12A6F5D0AB164376B6130616</string>
-				<string>ED3DEFCF849247129C0D5775</string>
-				<string>C7EA2B54F0834D4AA4F23DBE</string>
-				<string>521F40BEDB954E70A80852BB</string>
-				<string>2E8827CEC90F42F3B2458147</string>
-				<string>CE61D309D44046C58346719D</string>
-				<string>6C67F80C4506489BB04D3DA4</string>
-				<string>0960C2B37372481B94493E85</string>
-				<string>9AD082BC75414BB99BCFD731</string>
-				<string>5A2FAC3766D2466494818408</string>
-				<string>5C05314A4A6146BDB1A38B8D</string>
-				<string>9E38BC3E587C406BAFB64A7A</string>
-				<string>0071062AFE7041B590E44A95</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>A9C07CC7F90A49838FAD7C23</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>BTPaymentSectionHeaderView.m</string>
-			<key>path</key>
-			<string>braintree/BTPayment/BTPaymentSectionHeaderView.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B233D969F1124C749FCB0A53</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4CFACF768D0347D8AD7B178F</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>B3848DF5B0ED4F9CAD330526</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>VenmoTouch.h</string>
-			<key>path</key>
-			<string>venmo-touch/VenmoTouch.framework/Headers/VenmoTouch.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B87A8AC4B4D04E3A96C88245</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>CoreText.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/CoreText.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>B8E25F4093DE46778F94FD19</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>BTEncryption.m</string>
-			<key>path</key>
-			<string>braintree/BTEncryption/BTEncryption.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BF0695B134D04089B792B5CA</key>
-		<dict>
-			<key>fileRef</key>
-			<string>01C6C4504B1C40DAA51506A7</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>BFF7DE9C63F34EBAB051A21B</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods-Braintree.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>C6DFB8CA1DF84C29AF2071B0</key>
-		<dict>
-			<key>fileRef</key>
-			<string>5AB2FC087C944AD187E48108</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>C752B7D53A2A4DA9A9647789</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>VTClient_CardIssuers.h</string>
-			<key>path</key>
-			<string>venmo-touch/VenmoTouch.framework/Headers/VTClient_CardIssuers.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C7EA2B54F0834D4AA4F23DBE</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A68F0FE2AB9B46559D3D2E3A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>C8BBAC71E79D4AF295C95C31</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>18602712496444EB92A64A2B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C97E6A2ED6A64E65A9A32E43</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>BTHmac.m</string>
-			<key>path</key>
-			<string>braintree/BTEncryption/BTHmac.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>CA29E58ECD7C4334982361F6</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4C6FBF39EB7341C79D4EE956</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>CD7E7FD87139477F97829550</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>BTPaymentCardUtils.h</string>
-			<key>path</key>
-			<string>braintree/BTPayment/BTPaymentCardUtils.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>CE61D309D44046C58346719D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>95D1B53F35594E8CA9544178</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>D12318110F874C1DB92E6BB7</key>
-		<dict>
-			<key>fileRef</key>
-			<string>796E959DDDF043BDBEF53053</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D23088C2869142FBB1A34525</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>VTCardView.h</string>
-			<key>path</key>
-			<string>venmo-touch/VenmoTouch.framework/Headers/VTCardView.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D5A3A41F6E3042B9B27C3995</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F4AD6CBC9E0B48C482517288</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D7097CBE8B3644468F206847</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-Braintree.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D8A8AAF4273744EEAF032E46</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DC4C119C6EAC4872AAEA97DD</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D95772A0B7804CB39587EEAE</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>BTSecKeyWrapper.m</string>
-			<key>path</key>
-			<string>braintree/BTEncryption/BTSecKeyWrapper.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DC4C119C6EAC4872AAEA97DD</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>BTPaymentFormView.h</string>
-			<key>path</key>
-			<string>braintree/BTPayment/BTPaymentFormView.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E0B784EB8B494D8EA1DC65A0</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>AdSupport.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/AdSupport.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>E3127388B1E24FAA9CFCD712</key>
-		<dict>
-			<key>fileRef</key>
-			<string>B87A8AC4B4D04E3A96C88245</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>E36942C6DCA14987A92EF515</key>
-		<dict>
-			<key>fileRef</key>
-			<string>1A92B0C756A44BC68EC59655</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>E856698CC26C44CBB56B13E2</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E93FCBFBB8394CCB8431F684</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.plug-in</string>
-			<key>name</key>
-			<string>BraintreeResources.bundle</string>
-			<key>path</key>
-			<string>braintree/BraintreeResources.bundle</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EB118B2D96AB4578848E6D97</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>ED3DEFCF849247129C0D5775</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9A1B5589481A436590C7EEAC</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>EDAE4D6FCB04419FB8FAE361</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>BTHmac.h</string>
-			<key>path</key>
-			<string>braintree/BTEncryption/BTHmac.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EDAFC982B02745CBAB3B945B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E856698CC26C44CBB56B13E2</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>EE613589FA7C4B309EE0D2FB</key>
-		<dict>
-			<key>fileRef</key>
-			<string>156985B46A46494BAC2EE4CF</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>EED7B0EF744F47AEA8B8997B</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>084D480276E64B598FD435EF</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>9BE1DAC3444F41388833C154</string>
-			<key>remoteInfo</key>
-			<string>Pods-Braintree</string>
-		</dict>
-		<key>F31D6C4961A046F9B0576204</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-resources.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F3E2086AA68645CA8B113D5B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>698695A97E934ABE98BDB09D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>F4AD6CBC9E0B48C482517288</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>BTDefines.h</string>
-			<key>path</key>
-			<string>braintree/BTPayment/BTDefines.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F4EEC6CA80FD448F87C2E0CE</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>BTPaymentViewController.h</string>
-			<key>path</key>
-			<string>braintree/BTPayment/BTPaymentViewController.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F6E10795DDED4BA1B12157B6</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>BTEncryption.h</string>
-			<key>path</key>
-			<string>braintree/BTEncryption/BTEncryption.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F7F43A47F0FC46F79B98DD4C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>796E959DDDF043BDBEF53053</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>F8B93DDD934541A4B291B290</key>
-		<dict>
-			<key>fileRef</key>
-			<string>C752B7D53A2A4DA9A9647789</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>F8E01C7FDAD84F0CB60F160D</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>261980EBFECA453895716A6F</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FDEA47128BE84361B44A0198</key>
-		<dict>
-			<key>fileRef</key>
-			<string>1A93C5BDE7B2470BA77F5831</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>084D480276E64B598FD435EF</string>
-</dict>
-</plist>
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0071062AFE7041B590E44A95 /* Pods-Braintree-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E5B004D272A4051B1B23C9D /* Pods-Braintree-dummy.m */; };
+		0960C2B37372481B94493E85 /* BTPaymentCardUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = A49656E4F7284ED4B48B0EEF /* BTPaymentCardUtils.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		12A6F5D0AB164376B6130616 /* BTHmac.m in Sources */ = {isa = PBXBuildFile; fileRef = C97E6A2ED6A64E65A9A32E43 /* BTHmac.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		1B67BF469EA2459BA003E733 /* VTClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BAB6D543D49449BABD705E8 /* VTClient.h */; };
+		1BEBBCA9861A450F94DAD0E7 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A5E6E623DE0478A80DA89D4 /* Security.framework */; };
+		1E798682C9C04BD1A9D1530E /* BTAES.h in Headers */ = {isa = PBXBuildFile; fileRef = 83FADCCE89084415965B37C9 /* BTAES.h */; };
+		231BFE7CA1C142FF90659063 /* BTEncryption.h in Headers */ = {isa = PBXBuildFile; fileRef = F6E10795DDED4BA1B12157B6 /* BTEncryption.h */; };
+		2E8827CEC90F42F3B2458147 /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 469562F5FF0B4E58B5D6C10E /* NSData+Base64.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		49FD1EA81AAC4DD3AAFF36DB /* libPods-Braintree.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BFF7DE9C63F34EBAB051A21B /* libPods-Braintree.a */; };
+		4E58192D5E48454CA476EDD7 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0B784EB8B494D8EA1DC65A0 /* AdSupport.framework */; };
+		4FA209B944234CCB82C671D2 /* BTSecKeyWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 35EF1D272B694265B5BA3057 /* BTSecKeyWrapper.h */; };
+		5087D95553734A6C9073EA7F /* VTCardView.h in Headers */ = {isa = PBXBuildFile; fileRef = D23088C2869142FBB1A34525 /* VTCardView.h */; };
+		51B601E29BF3494B9EEB2E96 /* BTEncryption.m in Sources */ = {isa = PBXBuildFile; fileRef = B8E25F4093DE46778F94FD19 /* BTEncryption.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		521F40BEDB954E70A80852BB /* BTSecKeyWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = D95772A0B7804CB39587EEAE /* BTSecKeyWrapper.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		5728CA76935841EC816B46F3 /* BTHmac.h in Headers */ = {isa = PBXBuildFile; fileRef = EDAE4D6FCB04419FB8FAE361 /* BTHmac.h */; };
+		5A2FAC3766D2466494818408 /* BTPaymentFormView.m in Sources */ = {isa = PBXBuildFile; fileRef = A498743AD2404F709DF34B30 /* BTPaymentFormView.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		5B6A9D831D324B40AB94D11F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 007B54DFFA064E65B0C9DDCF /* QuartzCore.framework */; };
+		5C05314A4A6146BDB1A38B8D /* BTPaymentSectionHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C07CC7F90A49838FAD7C23 /* BTPaymentSectionHeaderView.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		6A5B3F04DA544CDBA59D1F9D /* VenmoTouch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2309C73993DD4DF99465D424 /* VenmoTouch.framework */; };
+		6C67F80C4506489BB04D3DA4 /* BTPaymentCardType.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CDBCE5FDD0643F9A55A5BFA /* BTPaymentCardType.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		7752AA8AE4294EF39ED51E80 /* BTPaymentActivityOverlayView.h in Headers */ = {isa = PBXBuildFile; fileRef = 969C3E59994F475A87EB2070 /* BTPaymentActivityOverlayView.h */; };
+		77D3B2B11D3A4755AABF222F /* BTPaymentCardUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = CD7E7FD87139477F97829550 /* BTPaymentCardUtils.h */; };
+		8422023F749947B78B07C633 /* BTPaymentViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F4EEC6CA80FD448F87C2E0CE /* BTPaymentViewController.h */; };
+		93134F11BA14481192566796 /* BTPaymentCardType.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C42EF7D8B084B4F99E619E2 /* BTPaymentCardType.h */; };
+		94F841AE04914E78B48311CC /* VTCheckboxView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F9F17E490EA45F3AF351A2B /* VTCheckboxView.h */; };
+		95D534D5A82A41B7B3F98FA2 /* BTPaymentFormTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 68D10966CCFA42E4AAD0157A /* BTPaymentFormTextField.h */; };
+		9674CE5E18544401B0C1F843 /* VenmoTouch.h in Headers */ = {isa = PBXBuildFile; fileRef = B3848DF5B0ED4F9CAD330526 /* VenmoTouch.h */; };
+		981D4EED7C74429AA3AD00D8 /* BTAES.m in Sources */ = {isa = PBXBuildFile; fileRef = 176270CA36DF423D80B4471D /* BTAES.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		9AD082BC75414BB99BCFD731 /* BTPaymentFormTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A323E85232B4F1D8E42F856 /* BTPaymentFormTextField.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		9E38BC3E587C406BAFB64A7A /* BTPaymentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 266DD49430AA4E05A1F5CF52 /* BTPaymentViewController.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		A3C99A399B024B0F92272EC0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CAB5B49C0A845B09F2723D4 /* UIKit.framework */; };
+		B233D969F1124C749FCB0A53 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CFACF768D0347D8AD7B178F /* CoreGraphics.framework */; };
+		BF0695B134D04089B792B5CA /* BTPaymentSectionHeaderView.h in Headers */ = {isa = PBXBuildFile; fileRef = 01C6C4504B1C40DAA51506A7 /* BTPaymentSectionHeaderView.h */; };
+		C6DFB8CA1DF84C29AF2071B0 /* BTRSA.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AB2FC087C944AD187E48108 /* BTRSA.h */; };
+		C7EA2B54F0834D4AA4F23DBE /* BTRSA.m in Sources */ = {isa = PBXBuildFile; fileRef = A68F0FE2AB9B46559D3D2E3A /* BTRSA.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		CA29E58ECD7C4334982361F6 /* VenmoTouchSettings.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C6FBF39EB7341C79D4EE956 /* VenmoTouchSettings.h */; };
+		CE61D309D44046C58346719D /* BTPaymentActivityOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 95D1B53F35594E8CA9544178 /* BTPaymentActivityOverlayView.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		D12318110F874C1DB92E6BB7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 796E959DDDF043BDBEF53053 /* Foundation.framework */; };
+		D5A3A41F6E3042B9B27C3995 /* BTDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = F4AD6CBC9E0B48C482517288 /* BTDefines.h */; };
+		D8A8AAF4273744EEAF032E46 /* BTPaymentFormView.h in Headers */ = {isa = PBXBuildFile; fileRef = DC4C119C6EAC4872AAEA97DD /* BTPaymentFormView.h */; };
+		E3127388B1E24FAA9CFCD712 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B87A8AC4B4D04E3A96C88245 /* CoreText.framework */; };
+		E36942C6DCA14987A92EF515 /* BTRandom.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A92B0C756A44BC68EC59655 /* BTRandom.h */; };
+		ED3DEFCF849247129C0D5775 /* BTRandom.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A1B5589481A436590C7EEAC /* BTRandom.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		EDAFC982B02745CBAB3B945B /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E856698CC26C44CBB56B13E2 /* Pods-dummy.m */; };
+		EE613589FA7C4B309EE0D2FB /* NSData+Base64.h in Headers */ = {isa = PBXBuildFile; fileRef = 156985B46A46494BAC2EE4CF /* NSData+Base64.h */; };
+		F3E2086AA68645CA8B113D5B /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 698695A97E934ABE98BDB09D /* CoreTelephony.framework */; };
+		F7F43A47F0FC46F79B98DD4C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 796E959DDDF043BDBEF53053 /* Foundation.framework */; };
+		F8B93DDD934541A4B291B290 /* VTClient_CardIssuers.h in Headers */ = {isa = PBXBuildFile; fileRef = C752B7D53A2A4DA9A9647789 /* VTClient_CardIssuers.h */; };
+		FDEA47128BE84361B44A0198 /* VTPaymentMethodCode.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A93C5BDE7B2470BA77F5831 /* VTPaymentMethodCode.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EED7B0EF744F47AEA8B8997B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 084D480276E64B598FD435EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9BE1DAC3444F41388833C154;
+			remoteInfo = "Pods-Braintree";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		007B54DFFA064E65B0C9DDCF /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		01C6C4504B1C40DAA51506A7 /* BTPaymentSectionHeaderView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTPaymentSectionHeaderView.h; path = braintree/BTPayment/BTPaymentSectionHeaderView.h; sourceTree = "<group>"; };
+		0CDBCE5FDD0643F9A55A5BFA /* BTPaymentCardType.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTPaymentCardType.m; path = braintree/BTPayment/BTPaymentCardType.m; sourceTree = "<group>"; };
+		156985B46A46494BAC2EE4CF /* NSData+Base64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+Base64.h"; path = "braintree/BTEncryption/NSData+Base64.h"; sourceTree = "<group>"; };
+		176270CA36DF423D80B4471D /* BTAES.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTAES.m; path = braintree/BTEncryption/BTAES.m; sourceTree = "<group>"; };
+		1A92B0C756A44BC68EC59655 /* BTRandom.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTRandom.h; path = braintree/BTEncryption/BTRandom.h; sourceTree = "<group>"; };
+		1A93C5BDE7B2470BA77F5831 /* VTPaymentMethodCode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VTPaymentMethodCode.h; path = "venmo-touch/VenmoTouch.framework/Headers/VTPaymentMethodCode.h"; sourceTree = "<group>"; };
+		2309C73993DD4DF99465D424 /* VenmoTouch.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VenmoTouch.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/VenmoTouch.framework; sourceTree = DEVELOPER_DIR; };
+		261980EBFECA453895716A6F /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		266DD49430AA4E05A1F5CF52 /* BTPaymentViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTPaymentViewController.m; path = braintree/BTPayment/BTPaymentViewController.m; sourceTree = "<group>"; };
+		2C45F5F15F4B426BB25A9CC0 /* Pods-Braintree-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Braintree-Private.xcconfig"; sourceTree = "<group>"; };
+		2CAB5B49C0A845B09F2723D4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		35EF1D272B694265B5BA3057 /* BTSecKeyWrapper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTSecKeyWrapper.h; path = braintree/BTEncryption/BTSecKeyWrapper.h; sourceTree = "<group>"; };
+		469562F5FF0B4E58B5D6C10E /* NSData+Base64.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSData+Base64.m"; path = "braintree/BTEncryption/NSData+Base64.m"; sourceTree = "<group>"; };
+		4C6FBF39EB7341C79D4EE956 /* VenmoTouchSettings.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VenmoTouchSettings.h; path = "venmo-touch/VenmoTouch.framework/Headers/VenmoTouchSettings.h"; sourceTree = "<group>"; };
+		4CFACF768D0347D8AD7B178F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		5A5E6E623DE0478A80DA89D4 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		5AB2FC087C944AD187E48108 /* BTRSA.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTRSA.h; path = braintree/BTEncryption/BTRSA.h; sourceTree = "<group>"; };
+		5F76BA4354CD431DB6376E5D /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		5F9F17E490EA45F3AF351A2B /* VTCheckboxView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VTCheckboxView.h; path = "venmo-touch/VenmoTouch.framework/Headers/VTCheckboxView.h"; sourceTree = "<group>"; };
+		64751D6FFFDF4A6C92BA466E /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		66EA111AD4E94B34BB9761F7 /* Pods-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-environment.h"; sourceTree = "<group>"; };
+		68D10966CCFA42E4AAD0157A /* BTPaymentFormTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTPaymentFormTextField.h; path = braintree/BTPayment/BTPaymentFormTextField.h; sourceTree = "<group>"; };
+		698695A97E934ABE98BDB09D /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/CoreTelephony.framework; sourceTree = DEVELOPER_DIR; };
+		6A323E85232B4F1D8E42F856 /* BTPaymentFormTextField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTPaymentFormTextField.m; path = braintree/BTPayment/BTPaymentFormTextField.m; sourceTree = "<group>"; };
+		6C42EF7D8B084B4F99E619E2 /* BTPaymentCardType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTPaymentCardType.h; path = braintree/BTPayment/BTPaymentCardType.h; sourceTree = "<group>"; };
+		796E959DDDF043BDBEF53053 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7BAB6D543D49449BABD705E8 /* VTClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VTClient.h; path = "venmo-touch/VenmoTouch.framework/Headers/VTClient.h"; sourceTree = "<group>"; };
+		83FADCCE89084415965B37C9 /* BTAES.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTAES.h; path = braintree/BTEncryption/BTAES.h; sourceTree = "<group>"; };
+		85FE2665CD7E417EAF6ACA89 /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		8D0C7966419C4CBB934FEA51 /* VenmoTouchResources.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = VenmoTouchResources.bundle; path = "venmo-touch/VenmoTouchResources.bundle"; sourceTree = "<group>"; };
+		95D1B53F35594E8CA9544178 /* BTPaymentActivityOverlayView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTPaymentActivityOverlayView.m; path = braintree/BTPayment/BTPaymentActivityOverlayView.m; sourceTree = "<group>"; };
+		969C3E59994F475A87EB2070 /* BTPaymentActivityOverlayView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTPaymentActivityOverlayView.h; path = braintree/BTPayment/BTPaymentActivityOverlayView.h; sourceTree = "<group>"; };
+		9A1B5589481A436590C7EEAC /* BTRandom.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTRandom.m; path = braintree/BTEncryption/BTRandom.m; sourceTree = "<group>"; };
+		9E5B004D272A4051B1B23C9D /* Pods-Braintree-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Braintree-dummy.m"; sourceTree = "<group>"; };
+		A342FE4C9B0B4A9A8D0D9055 /* Pods-Braintree-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Braintree-prefix.pch"; sourceTree = "<group>"; };
+		A49656E4F7284ED4B48B0EEF /* BTPaymentCardUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTPaymentCardUtils.m; path = braintree/BTPayment/BTPaymentCardUtils.m; sourceTree = "<group>"; };
+		A498743AD2404F709DF34B30 /* BTPaymentFormView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTPaymentFormView.m; path = braintree/BTPayment/BTPaymentFormView.m; sourceTree = "<group>"; };
+		A68F0FE2AB9B46559D3D2E3A /* BTRSA.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTRSA.m; path = braintree/BTEncryption/BTRSA.m; sourceTree = "<group>"; };
+		A9C07CC7F90A49838FAD7C23 /* BTPaymentSectionHeaderView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTPaymentSectionHeaderView.m; path = braintree/BTPayment/BTPaymentSectionHeaderView.m; sourceTree = "<group>"; };
+		B3848DF5B0ED4F9CAD330526 /* VenmoTouch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VenmoTouch.h; path = "venmo-touch/VenmoTouch.framework/Headers/VenmoTouch.h"; sourceTree = "<group>"; };
+		B87A8AC4B4D04E3A96C88245 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/CoreText.framework; sourceTree = DEVELOPER_DIR; };
+		B8E25F4093DE46778F94FD19 /* BTEncryption.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTEncryption.m; path = braintree/BTEncryption/BTEncryption.m; sourceTree = "<group>"; };
+		BFF7DE9C63F34EBAB051A21B /* libPods-Braintree.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Braintree.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C752B7D53A2A4DA9A9647789 /* VTClient_CardIssuers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VTClient_CardIssuers.h; path = "venmo-touch/VenmoTouch.framework/Headers/VTClient_CardIssuers.h"; sourceTree = "<group>"; };
+		C97E6A2ED6A64E65A9A32E43 /* BTHmac.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTHmac.m; path = braintree/BTEncryption/BTHmac.m; sourceTree = "<group>"; };
+		CD7E7FD87139477F97829550 /* BTPaymentCardUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTPaymentCardUtils.h; path = braintree/BTPayment/BTPaymentCardUtils.h; sourceTree = "<group>"; };
+		D23088C2869142FBB1A34525 /* VTCardView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VTCardView.h; path = "venmo-touch/VenmoTouch.framework/Headers/VTCardView.h"; sourceTree = "<group>"; };
+		D7097CBE8B3644468F206847 /* Pods-Braintree.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Braintree.xcconfig"; sourceTree = "<group>"; };
+		D95772A0B7804CB39587EEAE /* BTSecKeyWrapper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTSecKeyWrapper.m; path = braintree/BTEncryption/BTSecKeyWrapper.m; sourceTree = "<group>"; };
+		DC4C119C6EAC4872AAEA97DD /* BTPaymentFormView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTPaymentFormView.h; path = braintree/BTPayment/BTPaymentFormView.h; sourceTree = "<group>"; };
+		E0B784EB8B494D8EA1DC65A0 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/AdSupport.framework; sourceTree = DEVELOPER_DIR; };
+		E856698CC26C44CBB56B13E2 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+		E93FCBFBB8394CCB8431F684 /* BraintreeResources.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = BraintreeResources.bundle; path = braintree/BraintreeResources.bundle; sourceTree = "<group>"; };
+		EB118B2D96AB4578848E6D97 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.xcconfig; sourceTree = "<group>"; };
+		EDAE4D6FCB04419FB8FAE361 /* BTHmac.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTHmac.h; path = braintree/BTEncryption/BTHmac.h; sourceTree = "<group>"; };
+		F31D6C4961A046F9B0576204 /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
+		F4AD6CBC9E0B48C482517288 /* BTDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTDefines.h; path = braintree/BTPayment/BTDefines.h; sourceTree = "<group>"; };
+		F4EEC6CA80FD448F87C2E0CE /* BTPaymentViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTPaymentViewController.h; path = braintree/BTPayment/BTPaymentViewController.h; sourceTree = "<group>"; };
+		F6E10795DDED4BA1B12157B6 /* BTEncryption.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTEncryption.h; path = braintree/BTEncryption/BTEncryption.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		136A0B090CD9439186360895 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7F43A47F0FC46F79B98DD4C /* Foundation.framework in Frameworks */,
+				49FD1EA81AAC4DD3AAFF36DB /* libPods-Braintree.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DE0A8A29E50434DB1B7E4EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D12318110F874C1DB92E6BB7 /* Foundation.framework in Frameworks */,
+				A3C99A399B024B0F92272EC0 /* UIKit.framework in Frameworks */,
+				5B6A9D831D324B40AB94D11F /* QuartzCore.framework in Frameworks */,
+				B233D969F1124C749FCB0A53 /* CoreGraphics.framework in Frameworks */,
+				1BEBBCA9861A450F94DAD0E7 /* Security.framework in Frameworks */,
+				6A5B3F04DA544CDBA59D1F9D /* VenmoTouch.framework in Frameworks */,
+				F3E2086AA68645CA8B113D5B /* CoreTelephony.framework in Frameworks */,
+				4E58192D5E48454CA476EDD7 /* AdSupport.framework in Frameworks */,
+				E3127388B1E24FAA9CFCD712 /* CoreText.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07DB22DE53EF442BBC76E979 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2C45F5F15F4B426BB25A9CC0 /* Pods-Braintree-Private.xcconfig */,
+				9E5B004D272A4051B1B23C9D /* Pods-Braintree-dummy.m */,
+				A342FE4C9B0B4A9A8D0D9055 /* Pods-Braintree-prefix.pch */,
+				D7097CBE8B3644468F206847 /* Pods-Braintree.xcconfig */,
+			);
+			name = "Support Files";
+			sourceTree = SOURCE_ROOT;
+		};
+		0CE24254048B4EC890C87F94 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9DBD8DBBBD1040BEA66F07A5 /* Pods */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		0DD903F8CE68458F9AC2370A /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				83FADCCE89084415965B37C9 /* BTAES.h */,
+				176270CA36DF423D80B4471D /* BTAES.m */,
+				F4AD6CBC9E0B48C482517288 /* BTDefines.h */,
+				F6E10795DDED4BA1B12157B6 /* BTEncryption.h */,
+				B8E25F4093DE46778F94FD19 /* BTEncryption.m */,
+				EDAE4D6FCB04419FB8FAE361 /* BTHmac.h */,
+				C97E6A2ED6A64E65A9A32E43 /* BTHmac.m */,
+				969C3E59994F475A87EB2070 /* BTPaymentActivityOverlayView.h */,
+				95D1B53F35594E8CA9544178 /* BTPaymentActivityOverlayView.m */,
+				6C42EF7D8B084B4F99E619E2 /* BTPaymentCardType.h */,
+				0CDBCE5FDD0643F9A55A5BFA /* BTPaymentCardType.m */,
+				CD7E7FD87139477F97829550 /* BTPaymentCardUtils.h */,
+				A49656E4F7284ED4B48B0EEF /* BTPaymentCardUtils.m */,
+				68D10966CCFA42E4AAD0157A /* BTPaymentFormTextField.h */,
+				6A323E85232B4F1D8E42F856 /* BTPaymentFormTextField.m */,
+				DC4C119C6EAC4872AAEA97DD /* BTPaymentFormView.h */,
+				A498743AD2404F709DF34B30 /* BTPaymentFormView.m */,
+				01C6C4504B1C40DAA51506A7 /* BTPaymentSectionHeaderView.h */,
+				A9C07CC7F90A49838FAD7C23 /* BTPaymentSectionHeaderView.m */,
+				F4EEC6CA80FD448F87C2E0CE /* BTPaymentViewController.h */,
+				266DD49430AA4E05A1F5CF52 /* BTPaymentViewController.m */,
+				5AB2FC087C944AD187E48108 /* BTRSA.h */,
+				A68F0FE2AB9B46559D3D2E3A /* BTRSA.m */,
+				1A92B0C756A44BC68EC59655 /* BTRandom.h */,
+				9A1B5589481A436590C7EEAC /* BTRandom.m */,
+				35EF1D272B694265B5BA3057 /* BTSecKeyWrapper.h */,
+				D95772A0B7804CB39587EEAE /* BTSecKeyWrapper.m */,
+				156985B46A46494BAC2EE4CF /* NSData+Base64.h */,
+				469562F5FF0B4E58B5D6C10E /* NSData+Base64.m */,
+				D23088C2869142FBB1A34525 /* VTCardView.h */,
+				5F9F17E490EA45F3AF351A2B /* VTCheckboxView.h */,
+				7BAB6D543D49449BABD705E8 /* VTClient.h */,
+				C752B7D53A2A4DA9A9647789 /* VTClient_CardIssuers.h */,
+				1A93C5BDE7B2470BA77F5831 /* VTPaymentMethodCode.h */,
+				B3848DF5B0ED4F9CAD330526 /* VenmoTouch.h */,
+				4C6FBF39EB7341C79D4EE956 /* VenmoTouchSettings.h */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		18602712496444EB92A64A2B /* Braintree */ = {
+			isa = PBXGroup;
+			children = (
+				9AF5360453CE4706A7DF1590 /* Products */,
+				591F41426F1649FA83FDCE89 /* Resources */,
+				0DD903F8CE68458F9AC2370A /* Source Files */,
+				07DB22DE53EF442BBC76E979 /* Support Files */,
+			);
+			path = Braintree;
+			sourceTree = "<group>";
+		};
+		591F41426F1649FA83FDCE89 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E93FCBFBB8394CCB8431F684 /* BraintreeResources.bundle */,
+				8D0C7966419C4CBB934FEA51 /* VenmoTouchResources.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		93E5F794EED7402C9C9C187E = {
+			isa = PBXGroup;
+			children = (
+				A1AF17F8070D4E31A69865AA /* Frameworks */,
+				C8BBAC71E79D4AF295C95C31 /* Pods */,
+				F8E01C7FDAD84F0CB60F160D /* Products */,
+				0CE24254048B4EC890C87F94 /* Targets Support Files */,
+				5F76BA4354CD431DB6376E5D /* Podfile */,
+			);
+			sourceTree = "<group>";
+		};
+		9AF5360453CE4706A7DF1590 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BFF7DE9C63F34EBAB051A21B /* libPods-Braintree.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9DBD8DBBBD1040BEA66F07A5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				64751D6FFFDF4A6C92BA466E /* Pods-acknowledgements.markdown */,
+				85FE2665CD7E417EAF6ACA89 /* Pods-acknowledgements.plist */,
+				E856698CC26C44CBB56B13E2 /* Pods-dummy.m */,
+				66EA111AD4E94B34BB9761F7 /* Pods-environment.h */,
+				F31D6C4961A046F9B0576204 /* Pods-resources.sh */,
+				EB118B2D96AB4578848E6D97 /* Pods.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A1AF17F8070D4E31A69865AA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E0B784EB8B494D8EA1DC65A0 /* AdSupport.framework */,
+				4CFACF768D0347D8AD7B178F /* CoreGraphics.framework */,
+				698695A97E934ABE98BDB09D /* CoreTelephony.framework */,
+				B87A8AC4B4D04E3A96C88245 /* CoreText.framework */,
+				796E959DDDF043BDBEF53053 /* Foundation.framework */,
+				007B54DFFA064E65B0C9DDCF /* QuartzCore.framework */,
+				5A5E6E623DE0478A80DA89D4 /* Security.framework */,
+				2CAB5B49C0A845B09F2723D4 /* UIKit.framework */,
+				2309C73993DD4DF99465D424 /* VenmoTouch.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C8BBAC71E79D4AF295C95C31 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				18602712496444EB92A64A2B /* Braintree */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F8E01C7FDAD84F0CB60F160D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				261980EBFECA453895716A6F /* libPods.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5C42592C52AE43BA8DABF3EA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9674CE5E18544401B0C1F843 /* VenmoTouch.h in Headers */,
+				CA29E58ECD7C4334982361F6 /* VenmoTouchSettings.h in Headers */,
+				5087D95553734A6C9073EA7F /* VTCardView.h in Headers */,
+				94F841AE04914E78B48311CC /* VTCheckboxView.h in Headers */,
+				1B67BF469EA2459BA003E733 /* VTClient.h in Headers */,
+				F8B93DDD934541A4B291B290 /* VTClient_CardIssuers.h in Headers */,
+				FDEA47128BE84361B44A0198 /* VTPaymentMethodCode.h in Headers */,
+				1E798682C9C04BD1A9D1530E /* BTAES.h in Headers */,
+				231BFE7CA1C142FF90659063 /* BTEncryption.h in Headers */,
+				5728CA76935841EC816B46F3 /* BTHmac.h in Headers */,
+				E36942C6DCA14987A92EF515 /* BTRandom.h in Headers */,
+				C6DFB8CA1DF84C29AF2071B0 /* BTRSA.h in Headers */,
+				4FA209B944234CCB82C671D2 /* BTSecKeyWrapper.h in Headers */,
+				EE613589FA7C4B309EE0D2FB /* NSData+Base64.h in Headers */,
+				D5A3A41F6E3042B9B27C3995 /* BTDefines.h in Headers */,
+				7752AA8AE4294EF39ED51E80 /* BTPaymentActivityOverlayView.h in Headers */,
+				93134F11BA14481192566796 /* BTPaymentCardType.h in Headers */,
+				77D3B2B11D3A4755AABF222F /* BTPaymentCardUtils.h in Headers */,
+				95D534D5A82A41B7B3F98FA2 /* BTPaymentFormTextField.h in Headers */,
+				D8A8AAF4273744EEAF032E46 /* BTPaymentFormView.h in Headers */,
+				BF0695B134D04089B792B5CA /* BTPaymentSectionHeaderView.h in Headers */,
+				8422023F749947B78B07C633 /* BTPaymentViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		51351F392B434E94B7BA49EE /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 550142D54A4F44A6B36DFECC /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				34E285EFDA0340168C4144D0 /* Sources */,
+				136A0B090CD9439186360895 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6B73BD4EEDBA4952866C485F /* PBXTargetDependency */,
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = 261980EBFECA453895716A6F /* libPods.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		9BE1DAC3444F41388833C154 /* Pods-Braintree */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2888449D49D4980ACBFD26A /* Build configuration list for PBXNativeTarget "Pods-Braintree" */;
+			buildPhases = (
+				A7D5296656EB43AA8C8FC898 /* Sources */,
+				4DE0A8A29E50434DB1B7E4EA /* Frameworks */,
+				5C42592C52AE43BA8DABF3EA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Braintree";
+			productName = "Pods-Braintree";
+			productReference = BFF7DE9C63F34EBAB051A21B /* libPods-Braintree.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		084D480276E64B598FD435EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+			};
+			buildConfigurationList = 79E90297DBB84D01A2C98A00 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 93E5F794EED7402C9C9C187E;
+			productRefGroup = F8E01C7FDAD84F0CB60F160D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9BE1DAC3444F41388833C154 /* Pods-Braintree */,
+				51351F392B434E94B7BA49EE /* Pods */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		34E285EFDA0340168C4144D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDAFC982B02745CBAB3B945B /* Pods-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7D5296656EB43AA8C8FC898 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				981D4EED7C74429AA3AD00D8 /* BTAES.m in Sources */,
+				51B601E29BF3494B9EEB2E96 /* BTEncryption.m in Sources */,
+				12A6F5D0AB164376B6130616 /* BTHmac.m in Sources */,
+				ED3DEFCF849247129C0D5775 /* BTRandom.m in Sources */,
+				C7EA2B54F0834D4AA4F23DBE /* BTRSA.m in Sources */,
+				521F40BEDB954E70A80852BB /* BTSecKeyWrapper.m in Sources */,
+				2E8827CEC90F42F3B2458147 /* NSData+Base64.m in Sources */,
+				CE61D309D44046C58346719D /* BTPaymentActivityOverlayView.m in Sources */,
+				6C67F80C4506489BB04D3DA4 /* BTPaymentCardType.m in Sources */,
+				0960C2B37372481B94493E85 /* BTPaymentCardUtils.m in Sources */,
+				9AD082BC75414BB99BCFD731 /* BTPaymentFormTextField.m in Sources */,
+				5A2FAC3766D2466494818408 /* BTPaymentFormView.m in Sources */,
+				5C05314A4A6146BDB1A38B8D /* BTPaymentSectionHeaderView.m in Sources */,
+				9E38BC3E587C406BAFB64A7A /* BTPaymentViewController.m in Sources */,
+				0071062AFE7041B590E44A95 /* Pods-Braintree-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6B73BD4EEDBA4952866C485F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9BE1DAC3444F41388833C154 /* Pods-Braintree */;
+			targetProxy = EED7B0EF744F47AEA8B8997B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2407ADEE04914DEDB154A31E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C45F5F15F4B426BB25A9CC0 /* Pods-Braintree-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pods-Braintree-prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2F5477063D024E7C89882F6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB118B2D96AB4578848E6D97 /* Pods.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3200DE58FE3946A78CAB7FD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+			};
+			name = Debug;
+		};
+		4968FD3348BF4534872207A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+			};
+			name = Release;
+		};
+		65C2150FC1F844E494393E5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB118B2D96AB4578848E6D97 /* Pods.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		99714180F780478998543223 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C45F5F15F4B426BB25A9CC0 /* Pods-Braintree-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pods-Braintree-prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		550142D54A4F44A6B36DFECC /* Build configuration list for PBXNativeTarget "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F5477063D024E7C89882F6C /* Release */,
+				65C2150FC1F844E494393E5A /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79E90297DBB84D01A2C98A00 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3200DE58FE3946A78CAB7FD2 /* Debug */,
+				4968FD3348BF4534872207A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2888449D49D4980ACBFD26A /* Build configuration list for PBXNativeTarget "Pods-Braintree" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2407ADEE04914DEDB154A31E /* Release */,
+				99714180F780478998543223 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 084D480276E64B598FD435EF /* Project object */;
+}
